@@ -1,0 +1,8 @@
+footer {
+    height: 30px;
+    @include rhythm-spacing(2, 0.5);
+
+    text-align: center;
+    @include set-font-size(16px);
+    // background-color: $color-logo;
+}

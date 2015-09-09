@@ -1,0 +1,40 @@
+.navbar {
+    background-color: $color-logo;
+    border: none;
+
+    @include rhythm-spacing(0,2);
+    color: $color-light;
+
+    ul {
+        li {
+            a {
+                color: $color-light;
+            }
+
+        }
+    }
+    a {
+        color: $color-light;
+    }
+}
+
+nav {
+    @include rhythm-spacing(1);
+    font-family: $header-font-stack;
+    a {
+        font-weight: 700;
+    }
+    .emphasis {
+        font-weight: 900;
+        @include set-font-size(24px);
+        a {
+            font-weight: 900;
+        }
+    }
+    
+}
+.navbar-line {
+    height:1px;
+    background-color: $color-logo;
+    @include rhythm-spacing(0.5,1.5);
+}

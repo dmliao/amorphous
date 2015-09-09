@@ -1,0 +1,20 @@
+---
+---
+
+/* Vendor Dependencies */
+
+/* Authored Dependencies (colors, typography) */
+@import "globals/vars";
+@import "globals/style";
+
+@import "mixins/underline";
+
+/* Components (button styles, tabs, modals, etc.) */
+@import "components/button";
+@import "components/logo";
+
+@import "sections/footer";
+@import "sections/navbar";
+@import "sections/img-preview";
+@import "sections/home";
+@import "sections/video";

@@ -1,0 +1,144 @@
+@import '../mixins/font-size';
+@import '../mixins/underline';
+
+body {
+	font-family: $body-font-stack;
+	font-size: 20px;
+	background-color:$bg-color;
+	color: $body-font-color;
+	line-height: 1.5em;
+}
+
+p {
+	@include set-font-size(20px);
+	@include rhythm-spacing(0.5);
+	font-weight: $body-font-weight;
+	color: $body-font-color;
+	// margin-bottom: 18px;
+	// line-height: 1.75em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: $header-font-stack;
+	font-weight: $header-font-weight;
+	color: $header-font-color;
+	&.alt {
+		font-family: $alt-font-stack;
+		font-weight: $alt-font-weight;
+		color: $alt-font-color;
+	}
+}
+
+h1 {
+	@include set-font-size(48px);
+	text-align: center;
+}
+h2 {
+	@include set-font-size(40px);
+	text-align: center;
+}
+
+h3 {
+	@include set-font-size(28px);
+}
+
+h4 {
+	@include set-font-size(24px);
+}
+
+h5 {
+	@include set-font-size(20px);
+}
+
+a {
+	color: $color-logo;
+	cursor: pointer;
+}
+
+a:hover {
+	color: darken($color-logo,10);
+	text-decoration: none;
+}
+
+
+blockquote {
+
+	@include set-font-size(18px);
+	padding: 0 0 0 32px;
+
+	p {
+		@include set-font-size(18px);
+	}
+}
+
+ul {
+	@include set-font-size(18px);
+	li {
+		@include set-font-size(18px);
+		margin-bottom: 0;
+	}
+}
+
+.highlight {
+	margin-bottom: 30px;
+}
+
+pre {
+	counter-reset: line-numbering;
+	border: solid 0px transparent;
+    border-radius: 0;
+	@include set-font-size(18px);
+	margin-bottom: 30px;
+	white-space: pre;
+    overflow-x: auto;
+    padding: 15px 15px;
+    display: block;
+}
+
+.linenos {
+	pre {
+		border-right: solid 1px #FFFFFF;
+	}
+}
+
+.highlight pre {
+    word-wrap: normal;
+}
+
+.highlight pre code {
+  white-space: pre!important;       // forces <code> to respect <pre> formatting
+}
+
+pre code {
+    counter-reset: line-numbering;
+}
+
+pre code .line::before {
+    content: counter(line-numbering);
+    counter-increment: line-numbering;
+    padding-right: 1em; /* space after numbers */
+    width: 1.5em;
+    text-align: right;
+    opacity: 0.5;
+}
+
+.container-thin {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 24px;
+
+	img {
+		max-width: 100%;
+	}
+}
+
+
+.container-narrow {
+    max-width: 760px;
+	margin: 0 auto;
+	padding: 0 24px;
+
+	img {
+		max-width: 100%;
+	}
+}

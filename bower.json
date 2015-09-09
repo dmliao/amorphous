@@ -1,0 +1,20 @@
+{
+  "name": "shadow",
+  "version": "0.0.0",
+  "authors": [
+    "Diana Liao <dl.amorphous@gmail.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.1.1",
+    "imgLiquid": "^0.9.944",
+    "lightbox2": "~2.8.1"
+  }
+}

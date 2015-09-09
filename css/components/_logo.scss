@@ -1,0 +1,26 @@
+.logo {
+    text-align:center;
+    margin: 0 auto;
+    margin-top: 10px;
+    img {
+        max-width: 120px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+#name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:center;
+    color: $color-light;
+    font-family: $header-font-stack;
+    font-weight: $header-font-weight;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#desc {
+    color: $color-light;
+}

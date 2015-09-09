@@ -1,0 +1,79 @@
+/* General button style (reset) */
+.btn-menu {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 12px 12px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 300;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.btn-menu:after, .btn-menu:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-menu:before {
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background: rgba($color-dark, 0.5);
+	opacity:1;
+	position: absolute;
+	z-index: -1;
+}
+
+/* Button 1 */
+.btn-menu {
+	border: 3px solid $color-light;
+	color: $color-light;
+}
+
+/* Button 1e */
+.btn-anim {
+	overflow: hidden;
+}
+
+.btn-anim:after {
+	width: 100%;
+	height: 0;
+	top: 50%;
+	left: 50%;
+	background: $color-light;
+	opacity: 0;
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.btn-anim:hover,
+.btn-anim:active {
+	color: $color-highlight;
+}
+
+.btn-anim:hover:after {
+	height: 260%;
+	opacity: 1;
+}
+
+.btn-anim:active:after {
+	height: 400%;
+	opacity: 1;
+}
