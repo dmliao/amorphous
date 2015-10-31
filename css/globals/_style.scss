@@ -15,7 +15,7 @@ body {
 }
 
 p {
-	@include set-font-size(24px);
+	@include set-font-size(20px);
 	@include rhythm-spacing(0.5);
 	font-weight: $body-font-weight;
 	color: $body-font-color;
@@ -78,7 +78,7 @@ blockquote {
 
 ul {
 	li {
-		@include set-font-size(24px);
+		@include set-font-size(20px);
 		
 	}
 }
