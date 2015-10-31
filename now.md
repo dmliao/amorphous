@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+## What I'm doing now:
+
+This list was last updated **October 2015**.
+
+I'm a student at Princeton University majoring in Computer Science. I am also pursuing a minor in Creative Writing.
+
+## I'm also:
+
+* developing a dungeon-crawling RPG video game
+* working on finishing my [game page](http://amorphous.itch.io) and web pages for my past game projects
+* revamping my portfolio site for web projects
+* writing a novel (since summer 2014) (working title: Crimson)
+* working on independent research for school (web platform to edit/view 2D animations created by warping and deforming artwork instead of a series of frames)
+
+## Availability:
+
+I'm **actively** looking for an internship for Summer 2015.
+
+I am **not** available for freelance web design / development.

@@ -3,14 +3,19 @@
 
 body {
 	font-family: $body-font-stack;
-	font-size: 20px;
 	background-color:$bg-color;
 	color: $body-font-color;
 	line-height: 1.5em;
 }
 
+.logo {
+	font-family: $alt-font-stack;
+	font-weight: 100;
+	@include set-font-size(48px);
+}
+
 p {
-	@include set-font-size(20px);
+	@include set-font-size(24px);
 	@include rhythm-spacing(0.5);
 	font-weight: $body-font-weight;
 	color: $body-font-color;
@@ -63,19 +68,18 @@ a:hover {
 
 blockquote {
 
-	@include set-font-size(18px);
+	@include set-font-size(28px);
 	padding: 0 0 0 32px;
 
 	p {
-		@include set-font-size(18px);
+		@include set-font-size(28px);
 	}
 }
 
 ul {
-	@include set-font-size(18px);
 	li {
-		@include set-font-size(18px);
-		margin-bottom: 0;
+		@include set-font-size(24px);
+		
 	}
 }
 
@@ -120,6 +124,12 @@ pre code .line::before {
     width: 1.5em;
     text-align: right;
     opacity: 0.5;
+}
+
+.container {
+	img{
+		max-width: 100%;
+	}
 }
 
 .container-thin {
