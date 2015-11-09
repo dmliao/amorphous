@@ -50,9 +50,8 @@ h3 {
 }
 
 a {
-	color: lighten($color-dark, 4);
+	color: $color-logo;
 	cursor: pointer;
-	@include underline(lighten($color-dark, 4));
 }
 
 a:hover {
