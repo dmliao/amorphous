@@ -1,4 +1,4 @@
-$color-dark: #3f2c32;
+$color-dark: #000000;
 $color-light: #FFFFFF;
 $color-grey: #AAAAAA;
 
@@ -10,7 +10,7 @@ $bg-color: $color-light;
 $container-color: $color-light;
 
 $header-font-stack: 'Crimson', 'Georgia', serif;;
-$header-font-weight: 300;
+$header-font-weight: 400;
 $header-font-color: $color-dark;
 
 $alt-font-stack: 'Raleway', sans-serif;
@@ -19,7 +19,7 @@ $alt-font-color: $color-dark;
 
 $body-font-stack: 'Crimson', 'Georgia', serif;
 $body-font-weight: 400;
-$body-font-color: darken($color-grey,30);
+$body-font-color: $color-dark;
 
 /* header styles */
 $collapse-width: 768px;

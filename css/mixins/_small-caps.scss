@@ -1,0 +1,7 @@
+@mixin alt-caps() {
+    font-family: $alt-font-stack;
+    font-weight: 700;
+    color: $alt-font-color;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

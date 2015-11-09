@@ -8,5 +8,10 @@ nav {
         margin: 0 12px;
         @include set-font-size(24px);
         font-family: $alt-font-stack;
+
+        a {
+            background-image: none;
+        color: $color-logo;
+        }
     }
 }

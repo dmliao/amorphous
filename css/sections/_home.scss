@@ -10,4 +10,22 @@
 
 .header {
     @include rhythm-spacing(2,1);
+
+    a {
+        background-image: none;
+    }
+}
+
+h1.home-emphasis {
+    @include set-font-size(42px);
+    font-family: $header-font-stack;
+    font-weight: 400;
+    color: $header-font-color;
+}
+
+h2.home-emphasis {
+    @include set-font-size(28px);
+    font-family: $header-font-stack;
+    font-weight: 400;
+    color: $header-font-color;
 }

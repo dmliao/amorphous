@@ -1,5 +1,6 @@
 @import '../mixins/font-size';
 @import '../mixins/underline';
+@import "../mixins/small-caps";
 
 body {
 	font-family: $body-font-stack;
@@ -15,12 +16,10 @@ body {
 }
 
 p {
-	@include set-font-size(20px);
+	@include set-font-size(24px);
 	@include rhythm-spacing(0.5);
 	font-weight: $body-font-weight;
 	color: $body-font-color;
-	// margin-bottom: 18px;
-	// line-height: 1.75em;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -28,36 +27,32 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: $header-font-weight;
 	color: $header-font-color;
 	&.alt {
-		font-family: $alt-font-stack;
-		font-weight: $alt-font-weight;
-		color: $alt-font-color;
+		@include alt-caps();
 	}
 }
 
 h1 {
-	@include set-font-size(48px);
-	text-align: center;
+	@include set-font-size(28px);
+	@include rhythm-spacing(1, 1);
+	font-weight: 700;
 }
 h2 {
-	@include set-font-size(40px);
-	text-align: center;
+	@include set-font-size(24px);
+	font-weight: 700;
+	margin-left: 40px;
+	@include rhythm-spacing(1, 1);
 }
 
 h3 {
-	@include set-font-size(28px);
-}
-
-h4 {
-	@include set-font-size(24px);
-}
-
-h5 {
-	@include set-font-size(20px);
+	@include set-font-size(22px);
+	margin-left: 40px;
+	@include rhythm-spacing(1, 1);
 }
 
 a {
-	color: $color-logo;
+	color: lighten($color-dark, 4);
 	cursor: pointer;
+	@include underline(lighten($color-dark, 4));
 }
 
 a:hover {
@@ -78,7 +73,7 @@ blockquote {
 
 ul {
 	li {
-		@include set-font-size(20px);
+		@include set-font-size(24px);
 		
 	}
 }

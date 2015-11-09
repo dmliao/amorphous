@@ -1,10 +1,17 @@
-@mixin underline($color) {
+@mixin underline($color, $line-offset:1, $line-size:0.1) {
+  background-repeat: repeat-x;
+  background-size: #{$line-size}em #{$line-size}em;
+  background-position: 0 #{$line-offset}em;
   text-decoration: none;
-  background-image: linear-gradient(to top,
-    rgba($color,0) 11%,
-    rgba($color,.3) 11%,
-    rgba($color,.3) 16%,
-    rgba($color,0) 16%
-    );
-    //border-bottom: 1px solid rgba($color,0.4);
+
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, $color));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 50%, $color 50%);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, $color 50%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, $color 50%);
+
+  .lt-ie10 & { // because old IE can't handle it
+    background: none;
+    text-decoration: underline;
+  }
 }
