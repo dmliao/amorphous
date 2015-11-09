@@ -21,3 +21,7 @@ I'm a student at Princeton University majoring in Computer Science. I am also pu
 I'm **actively** looking for an internship for Summer 2015.
 
 I am **not** available for freelance web design / development.
+
+---
+
+The idea of the `/now` page is from [Derek Sivers](https://sivers.org/nowff)
