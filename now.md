@@ -2,21 +2,25 @@
 layout: default
 ---
 
-# What I'm doing now:
+I'm a student at Princeton University majoring in Computer Science, and pursuing a minor in Creative Writing. 
 
-This list was last updated **October 2015**.
+This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **January 13, 2016**.
 
-I'm a student at Princeton University majoring in Computer Science. I am also pursuing a minor in Creative Writing.
+# What I did (recently):
 
-# I'm also:
+* Made a short browser game [Excerpts](http://amorphous.itch.io/excerpts) for procjam
+* Made the game [Ritual of Flowers](http://amorphous.itch.io/ritual) for Ludum Dare 34
 
+# What I'm doing:
+
+* being a college student
 * developing a dungeon-crawling RPG video game named **Farsider**.
 * writing a novel (since summer 2014) (working title: Crimson)
-* working on independent research for school (web platform to edit/view 2D animations created by warping and deforming artwork instead of a series of frames)
 
-# Availability:
+# What I will be doing: <span class='small'>if things go according to plan</span>
 
-I am **not** available for freelance web design / development.
+* going to Anime Boston in March
+* working at Facebook for the summer in Seattle
 
 ---
 
