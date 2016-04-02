@@ -4,7 +4,7 @@ layout: default
 
 I'm a student at Princeton University majoring in Computer Science, and pursuing a minor in Creative Writing. 
 
-This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **January 13, 2016**.
+This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **April 2nd, 2016**.
 
 # What I did (recently):
 
@@ -14,12 +14,10 @@ This page is a catch-all of what I've been up to lately, as well as a few things
 # What I'm doing:
 
 * being a college student
-* developing a dungeon-crawling RPG video game named **Farsider**.
-* writing a novel (since summer 2014) (working title: Crimson)
+* developing a dungeon-crawling RPG video game named **Farsider**, currently on hold as I finish up the semester.
 
 # What I will be doing: <span class='small'>if things go according to plan</span>
 
-* going to Anime Boston in March
 * working at Facebook for the summer in Seattle
 
 ---
