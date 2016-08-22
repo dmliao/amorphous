@@ -8,9 +8,11 @@ title: Diana Liao
 
 <div id="home">
   {% for post in site.posts %}
-      <h2 class='alt'><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {% endfor %}
-  </ul>
+    {% if post.wip != true %}
+      <h2 class='alt'><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: "%B %-d, %Y" }}</small></h2>
+    {% endif %}
+  {% endfor %}
+ 
 </div>
 
 </div>

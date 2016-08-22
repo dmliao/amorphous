@@ -12,6 +12,7 @@ The fact that there was also a game show-and-tell, which anyone could sign up fo
 I even ended up tweeting about it, and I never tweet about anything. In fact, going into this, I had no idea how the @ thing worked on Twitter, so was really, really surprised when this happened:
 
 ![](/img/blog/indiecade-east-2013/twit.png)
+
 _Note from July 2016: Pretty much everything about my Twitter has changed since then._
 
 Nobody told me that people actually responded to each other on twitter, let alone organizations. My impression of the event now changed a bit, and I thought it at least a little less intimidating, but I was still plenty nervous.
@@ -24,7 +25,7 @@ I ended up having a blast. IndieCADE East was an incredibly fun, inspiring exper
 
 Here, I’m going to go through the highlights of each day, although I didn’t take any pictures, so a lot of the images are from my cousin’s camera or scrounged up from the web.
 
-## Friday
+# Friday
 
 The actual event took place at the Museum of Moving Image, which is possibly the most modern building I’ve seen in a while. Everything on the first floor was a sleek white, the floors, the walls, the furniture, and there was an almost futuristic vibe about the place.
 
@@ -40,9 +41,9 @@ Fortunately or not, I arrived too late to sign up for the show-and-tell. The pro
 
 But it was one weight off my back for now, and I immediately went off to play the selection of games. I didn’t get the opportunity to try out all of them, but there were definitely a few that stuck out in my mind. I believe all of these games have either been nominated for the IndieCADE proper, or have won various other awards, and the quality really does show.
 
-## List of Games
+# List of Games
 
-### Tengami
+## Tengami
 
 ![](/img/blog/indiecade-east-2013/Tengami_ShrineOpened.jpg)
 
@@ -50,7 +51,7 @@ A calm, adventure (I think?) game set in ancient Japan, Tengami was the first ga
 
 I didn’t manage to dive deep enough into the demo to grasp the game’s plot, but even so, this is a game that I’m definitely grabbing once it’s out on the iOS store. And the soundtrack too, if the developers release it.
 
-### Thirty Flights of Loving
+## Thirty Flights of Loving
 
 ![](/img/blog/indiecade-east-2013/thirtyflights.jpg)
 
@@ -62,7 +63,7 @@ Still, even with my limited understanding, I found it to be a good game. It’s 
 
 But still, even though I didn’t fully grasp the plot, I did like the way the game was presented, and whether you ‘get it’ or not is not something I can determine, in any case.
 
-### Find Me A Good One
+## Find Me A Good One
 
 ![](/img/blog/indiecade-east-2013/find-me-a-good-one-1.jpg)
 
@@ -74,7 +75,7 @@ At any point, you can look at the bedroom to see how the boy is doing…except i
 
 (And now that I’ve read the official site description, I’ve realized just how off I was. I’m keeping my interpretation intact, though, to show what my thought process was.)
 
-### Hokra
+## Hokra
 
 ![](/img/blog/indiecade-east-2013/HokraGameplaySmall.jpg)
 
@@ -86,7 +87,7 @@ My strategy was pretty much just to mash A and run at the ball. Generally, like 
 
 There were plenty of other games on display, but these were the ones I ended up playing more extensively. That’s definitely something to keep in mind for me next time (if possible) – to try everything for longer periods of time so that I have more than just a first impression for some of the games there.
 
-### SportsFriends Panel
+## SportsFriends Panel
 
 Speaking about Hokra, the game was featured in that evening’s main session.
 
@@ -98,7 +99,7 @@ Oh, and at the very end, the developers and testers of Hokra played a ‘competi
 
 It’s actually kind of tempting for me to make a multiplayer game now, except that I already have a gazillion projects on my plate. But that was the last event for Friday, and a nice way to end my first day.
 
-## Saturday
+# Saturday
 
 I was at IndieCADE East for all of Saturday, even late into the night for the ‘Night Games’ part of the program. It was a pretty exhausting ride, but there were also plenty of seminars and talks that I got to attend and draw inspiration from.
 
@@ -110,13 +111,13 @@ Oh, and there was an arcade on the third floor, which we got some cool-looking t
 
 …and pretty much failed miserably. I don’t think either of us got past the first level. I think my high score was around 2000, compared to like 100000 of the top scores. It was still plenty of fun, though.
 
-### Game Slam
+## Game Slam
 
 The Game Slam was a series of 90 second pitches by game developers, to showcase their works in progress. I think there was a sign-up for this much like the show-and-tell, but it was interesting to see what the developers did to show off their games.
 
 90 seconds is a pretty tight limit, though, and I think some of them got cut off before they could showcase the ‘meat’ of their games, so to speak. 
 
-### Iron Game Design Challenge
+## Iron Game Design Challenge
 
 For this event, student teams from NYU’s Game Center and Parsons competed to make games that utilized…a bouquet of flowers.
 
@@ -124,7 +125,7 @@ Sadly, none of their game designs involved smashing the vase. Although that woul
 
 We ended up with vampire Simon Says with flowers on one side (NYU), and a weird tag-like game where players had to steal flowers from back pockets with their teeth on the other (Parsons)…I’m not entirely sure what I should think about those results. It’s pretty cool seeing the design process, and how games evolve as players playtest and figure out what’s working and what’s not, but the results were a bit strange, to say the least.
 
-### Ouya
+## Ouya
 
 Afterwards, I took a look at the Ouya display. For those that aren’t familiar with it, the Ouya is a video game console that runs on Android, and is supposedly friendly towards indie or hobbyist developers (like me) to put games in front of a TV. I didn’t actually get a chance to play very much on it, as the line for the Ocular Rift (another console, I think?) was really, really long, but I did manage to get my hands on it for a few seconds.
 
@@ -136,11 +137,11 @@ The controller looked nice too, although it didn’t really fit in my hand. I’
 
 And apparently, it had a really, really successful kickstarter that I wasn’t aware of?
 
-### Night Games
+## Night Games
 
 Saturday evening was a section of its own, called ‘Night Games’, which showcased some different games and events. However, I practically only played one game there, although it was a game that is quite unforgettable. So in the end, Night games for me was practically just…
 
-### Renga
+## Renga
 
 This game. I have no idea how to describe it, and it’s something that needs to be experienced to fully be understood. It’s a game that requires 100 players, and 100 laser pointers, where every player becomes almost part of a collective, working together to gather resources, defend a spaceship from attack, and later upgrade said spaceship.
 
@@ -152,7 +153,7 @@ It is somewhat uplifting to see how well such a large group works together, and 
 
 There was actually another Renga session on Sunday, and my cousin was tempted to go play / see it again just to answer those questions. In any case, it truly is something that needs to be experienced to understood, and was perhaps the most incredible part of all of IndieCADE East.
 
-## Sunday
+# Sunday
 
 By Sunday, I was pretty tired. I don’t think I had considered just how exhausting events like this could be, but somehow I still managed to get through the day okay. It probably helps that video games are like caffeine for me, I guess?
 
@@ -160,7 +161,7 @@ Sunday I actually toured some parts of New York, and went to this absurdly huge 
 
 Of course, I might just be that one weird kid who has never heard of ‘peanut butter varieties’, but it was still something pretty astounding in my eyes. But I digress.
 
-### Game Design Workshop
+## Game Design Workshop
 
 Sunday’s main ‘event’, so to speak, that I attended was the Game Design Workshop, where the attendees were split into groups and given 3 objects to design their own (physical) game with.
 
@@ -174,7 +175,7 @@ Battles were played by rolling dice, although the exact mechanics hadn’t been 
 
 Still, I think it was a pretty nice concept for an hour of work. But my cousin ended up coming up with Post-it Pirates for her group, which sounds infinitely cooler than my little tower game.
 
-### Physical Games
+## Physical Games
 
 The very last thing that I saw for IndieCADE on Sunday was a session on the development of physical games (that used video game systems just for scorekeeping / to enhance an experience, or not at all.) Originally, I’d thought it’d be about the game design for physical games, and how it compares to video games, but in the end it was more about the psychology and purpose of games.
 

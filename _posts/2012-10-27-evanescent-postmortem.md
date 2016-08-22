@@ -15,7 +15,7 @@ All in all, since I did complete the game, I consider it a success. I had releas
 
 Still, there’s always room for reflection and improvement, and looking back now, Evanescent was a game that had been developed crookedly, with me trying to learn Flash as I went along. Here is some of my insight on having made this game:
 
-## The Plan
+# The Plan
 
 The entire goal of this project was to make a Flash game that would 
 
@@ -38,7 +38,7 @@ I began to program enemies, first using programmer art (like that black box in t
 
 Very quickly, it seemed like I’d completed a majority of the game. I had enemies, implementations, the whole engine…it was just a matter of putting it all together.
 
-## What took so long, then?
+# What took so long, then?
 
 “The last 20% of the game takes 80% of the time” – I’m not sure where I stole that from, but that is unfortunately a very true statement, as I learned the hard way. I’d had an engine, but I still had to design all of the enemies, still had to make the individual levels, and all the menus and transitions. And developing all of that took a long time.
 
@@ -46,7 +46,7 @@ I didn’t have a graphical level editor, so enemy placements were hard-coded in
 
 If there’s anything capable of turning me off video games forever, it’d be the sheer amount of testing that’s needed in developing any game. At first, it was exciting to be able to play something I’d built myself, but as time went on, I got tired of seeing the same screens, same enemies over and over again, just tweaking their positions, or timings, or fixing bugs to get everything to work right.
 
-### Lesson #1: Games break a lot in development, and they won’t always look pretty either.
+## Lesson #1: Games break a lot in development, and they won’t always look pretty either.
 
 ![](/img/blog/evanescent-postmortem/dragon.jpg)
 
@@ -58,7 +58,7 @@ I had no image archive; images had been stored in the same file system as the en
 
 That also took far too much time.
 
-### Lesson #2: Things that were created several months ago will probably look different from what you make now. 
+## Lesson #2: Things that were created several months ago will probably look different from what you make now. 
 
 If you go back and try to fix everything, the project will never be finished.
 
@@ -68,13 +68,13 @@ So I eventually had to leave my perfectionist tendencies aside and accept the fa
 
 All in all, the development process took a year. I had thought it to be a summer’s worth of project, at most.
 
-### Lesson #3: It’s too easy to underestimate the amount of time you need to make something, and to overestimate the amount of time you have to make it.
+## Lesson #3: It’s too easy to underestimate the amount of time you need to make something, and to overestimate the amount of time you have to make it.
 
 Even so, in the end, I kept my promise to myself, and finished the damned thing. After I finished it, I didn’t really know what to do with it, so I kind of kept it to myself for about another year, before finally opening the floodgates and releasing it online.
 
 It hasn’t even been a month since I put it on game portals, but I’ve already come to realize what went right and what went wrong with Evanescent:
 
-## The Good
+# The Good
 
 I’ve gotten quite a bit of praise for the graphics and music, which I’m personally proud of. Drawing all of the environments and enemies took a while, as did the music composition, but those were aspects of the game that were very enjoyable to make, so I did not mind the time spent on those assets. I had sought to create a beautiful game, and visually, I have not heard complaints about it.
 
@@ -82,7 +82,7 @@ In addition, my friends all enjoyed Evanescent’s story – it made them think 
 
 Evanescent also lives up to its title: It’s a bullet-hell shooter. And it is difficult. For my friends who liked those kinds of games, it was a fun, whimsical game. For the people who just played casually…it might not be. But it had served its purpose in that sense, and for that, I was satisfied.
 
-## The Bad
+# The Bad
 
 I’ve come to realize after making this game that I wasn’t exactly the best at game design. I could program, write, draw, and compose, and make every single aspect of a game, except put it together in a very neat, fun package.
 
@@ -92,7 +92,7 @@ Having not played too many bullet hells myself, I had also failed to realize som
 
 Enemy issues was the next big complaint. Even with all of my testing, some aspects still went undiscovered, and I didn’t catch all of the bugs – and I sometimes didn’t realize how hard the game actually was. Having tested for months before release, I’d gotten to be quite good at the game, and some players missed cues or struggled with enemies that I had thought to be quite easy to read or obvious to beat.
 
-### Lesson #4: Always have a second opinion – for games, that’d be beta testers. They provide a more objective view to any project, and can see flaws that the creator misses entirely.
+## Lesson #4: Always have a second opinion – for games, that’d be beta testers. They provide a more objective view to any project, and can see flaws that the creator misses entirely.
 
 I didn’t quite get enough friends to test the thing, so some odd problems like bosses persisting at the bottom of the screen (where they couldn’t be hit) or graphics glitches had slipped out into release unnoticed.
 
@@ -102,7 +102,7 @@ Lesson #5: When making a game, make sure to make it fun and appealing to a targe
 
 Evanescent was fun to some people, which I’m very happy about, but there is still a lot I could improve upon, in my game design and development, to make a better game for my next project.
 
-## So now what?
+# So now what?
 
 Maybe Evanescent didn’t exactly have the smoothest development path, but it was done, and it was done exactly how I had imagined. I look at it more as a story, and maybe as art, than a game, and I certainly treated its development as such – it is as much an art game as it is a bullet hell – and perhaps that caused its focus to waver a bit.
 

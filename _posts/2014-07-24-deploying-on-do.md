@@ -8,9 +8,9 @@ _This post was written in 2014, as a series of notes when I was setting up my fi
 
 This guide assumes use of Ubuntu 14.04 (latest long term release)
 
-## Initial Setup
+# Initial Setup
 
-### Root setup
+## Root setup
 
 Use root to login to the droplet for the first time
 
@@ -32,14 +32,14 @@ Switch over to the new user now.
 
     su - user
 
-### emacs setup
+## emacs setup
 
 Install emacs
 
     sudo apt-get update
     sudo apt-get install emacs (whatever the latest version is)
 
-### ssh setup
+## ssh setup
 
 Open up ssh configuation
 
@@ -69,9 +69,9 @@ We do not want to disconnect until we can confirm that new connections can be es
 
     ssh -p 4444 user@SERVER_IP_ADDRESS
 
-## Adding Security
+# Adding Security
 
-### fail2ban
+## fail2ban
 
 We can install `fail2ban` to add extra security to login.
 
@@ -79,11 +79,11 @@ We can install `fail2ban` to add extra security to login.
 
 Instructions on how to configure `fail2ban` can be found here: [https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04)
 
-### misc.
+## misc.
 
 Refer to [https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-ubuntu-14-04-servers](https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-ubuntu-14-04-servers) for firewall resources and information.
 
-## Installing NodeJS
+# Installing NodeJS
 
 We have to remove the default node first
 
@@ -100,7 +100,7 @@ Then install NodeJS
 
 At this point, the app can be transferred over to the server via `scp`. For testing purposes, it can be built and run with `node` (or provided npm / grunt scripts).
 
-### Installing PM2
+## Installing PM2
 
 If we just run the app with node, it'll stop when it crashes. We need to do something to prevent that, and we can use PM2 for that.
 

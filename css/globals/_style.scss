@@ -20,6 +20,13 @@ p {
 	@include rhythm-spacing(0.5);
 	font-weight: $body-font-weight;
 	color: $body-font-color;
+
+	&.alt {
+		@include set-font-size(18px);
+		@include rhythm-spacing(0.5);
+		font-family: $alt-font-stack;
+		margin-left: 40px;
+	}
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -28,6 +35,7 @@ h1,h2,h3,h4,h5,h6 {
 	color: $header-font-color;
 	&.alt {
 		@include alt-caps();
+		@include rhythm-spacing(1, 1);
 	}
 }
 
@@ -41,6 +49,9 @@ h2 {
 	font-weight: 700;
 	margin-left: 40px;
 	@include rhythm-spacing(1, 1);
+	&.alt {
+		@include rhythm-spacing(1, 0.5);
+	}
 }
 
 h3 {
@@ -62,15 +73,25 @@ a:hover {
 
 blockquote {
 
-	@include set-font-size(28px);
+	@include set-font-size(20px);
 	padding: 0 0 0 32px;
+	font-family: $alt-font-stack;
+	
 
 	p {
-		@include set-font-size(28px);
+		color: darken($color-grey, 30);
+		@include set-font-size(20px);
 	}
 }
 
 ul {
+	li {
+		@include set-font-size(24px);
+		
+	}
+}
+
+ol {
 	li {
 		@include set-font-size(24px);
 		
