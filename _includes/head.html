@@ -11,7 +11,11 @@
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+  {% if page.title %}
+  <title>{{ page.title }}</title>
+  {% else %}
   <title>Amorphous</title>
+  {% endif %}
   <meta name="description" content="Amorphous is a software engineer, game developer, artist, writer, and composer. Amorphic Space is their homepage.">
   <meta name="author" content="Amorphous">
 

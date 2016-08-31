@@ -1,0 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Exo+2';
+
+body{
+    background-color: #0c0f1c;
+    color:#FFFFFF;
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #cda9d7;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
