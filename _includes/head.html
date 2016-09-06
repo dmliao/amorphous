@@ -11,18 +11,37 @@
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+  <meta name="twitter:site" content="@dmliao"/>
+  <meta name="og:site_name" content="Amorphic Space"/>
+
+  <meta name="twitter:card" content="summary_large_image"/>
+  
+  <meta name="twitter:url" content="{{page.url}}"/>
+  <meta property="og:url" content="{{ page.url }}" />
+
   {% if page.title %}
   <title>{{ page.title }}</title>
+  <meta name="twitter:title" content="{{page.title}}"/>
+  <meta property="og:title" content="{{page.title}}" />
   {% else %}
   <title>Amorphous</title>
+  <meta name="twitter:title" content="Amorphous"/>
+  <meta property="og:title" content="Amorphous" />
   {% endif %}
 
   {% if page.description %}
   <meta name="description" content="{{page.description}}">
+  <meta name="twitter:description" content="{{page.description}}"/>
+  <meta property="og:description" content="{{page.description}}" />
   {% else %}
   <meta name="description" content="Amorphous is a software engineer, game developer, artist, writer, and composer. Amorphic Space is their homepage.">
   {% endif %}
   <meta name="author" content="Amorphous">
+
+  {% if page.thumbnail %}
+  <meta property="twitter:image" content="{{page.thumbnail}}"/>
+  <meta property="og:image" content="{{page.thumbnail}}" />
+  {% endif %}
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
