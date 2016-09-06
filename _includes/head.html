@@ -16,7 +16,12 @@
   {% else %}
   <title>Amorphous</title>
   {% endif %}
+
+  {% if page.description %}
+  <meta name="description" content="{{page.description}}">
+  {% else %}
   <meta name="description" content="Amorphous is a software engineer, game developer, artist, writer, and composer. Amorphic Space is their homepage.">
+  {% endif %}
   <meta name="author" content="Amorphous">
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->

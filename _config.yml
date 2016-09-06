@@ -7,7 +7,7 @@ destination: ./_site
 future:      true
 lsi:         false
 highlighter: rouge
-markdown:    redcarpet
+markdown:    kramdown
 permalink:   pretty      
 #
 # https://github.com/mojombo/jekyll/wiki/Permalinks
