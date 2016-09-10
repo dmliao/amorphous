@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploying Node.JS with DigitalOcean (2014)
+title: Node.JS on DigitalOcean (2014)
 ---
 
 _This post was written in 2014, as a series of notes when I was setting up my first server. It's a mess, and it's incomplete, but I keep it here for posterity's sake. The guide offered here may be severely out of date!_
