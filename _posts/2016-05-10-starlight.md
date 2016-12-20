@@ -7,7 +7,7 @@ _Note: This post contains spoilers for Starlight, if you care about that. [You c
 
 ---
 
-I was introduced to LOWREZJAM by way of a friend, and decided early on not to participate on the account of having finals. Unfortunately, I have a persistent game jame problem, and joined anyway.
+I was introduced to LOWREZJAM by way of a friend, and decided early on not to participate on the account of having finals. Unfortunately, I have a persistent game jam problem, and joined anyway.
 
 I made Starlight over the course of five days using Game Maker. I say five days, but it actually was much longer than that; it was five days of actual development made possible by my familiarity with Game Maker, by the fact that the ideas had been rolling around in my head for weeks already.
 
