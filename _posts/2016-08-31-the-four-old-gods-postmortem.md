@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Making The Four Old Gods
-wip: true
 ---
+
+_Note: This post was started in August after I finished the game, although I forgot about it and so remains unfinished as of December 20th, 2016. I will get back to it as soon as I am able, but I think there's already some valuable information here, which is why I'm publishing it now._
 
 I participated in Enbyjam in August, 2016, pretty much entirely on a whim: I wanted to make a game, and there happened to be a jam running, so I used the jam's running time as a deadline. It gave me a week (and change - technically 9 days) to make a game. And decided to make a strategy game. [You can play it here.]
 
@@ -12,11 +13,11 @@ But somehow, I made it. It's a short strategy game, more like a strategy RPG, th
 
 I think that this project was only possible because I'd failed at making so many strategy games before. I had a lot of ideas and assets left over from those projects, which I was able to incorporate into this game without too much overhead.
 
-I also kept a journal of what I worked on each day, which may give some insight into the process I used, and the technologies behind them.
+This is a series of notes which may give some insight into the process I used, and the technologies behind them.
 
 The game was made in Game Maker: Studio.
 
-## Day 1: System & Pathfinding
+## System & Pathfinding
 
 I started the game with a particular mechanic in mind. Specifically, I was trying to code a prototype for a _Real-time with pause_ strategy game, where the action would all move in real time, but could be stopped at any point to give orders or to look over the field. 
 
@@ -42,9 +43,9 @@ Mouse selection was also done by end of day. I decided early on to limit the num
 
 By the end of the day, I had a good engine for the game, where units could be selected, moved to the mouse while avoiding walls, and the game could be paused at any time.
 
-## Day 2: Map Design
+## Map Design
 
-I spent most of the day drawing the map and figuring out game objectives. I figured that there would only be one level, so the objective of the game had to be fairly easy to understand. From the few strategy games I played, I had a short list of the typical objectives in a strategy game level:
+I figured that there would only be one level, so the objective of the game had to be fairly easy to understand. From the few strategy games I played, I had a short list of the typical objectives in a strategy game level:
 
 * Defeat all enemies
 * Destroy some important target (enemy bases, energy source, etc.)
@@ -69,13 +70,12 @@ The map of the Four Old Gods has four spawn points for enemies, one on each corn
 
 A side-effect of this map design was that it really felt like the player was being assaulted by a force they had to continually defend against, since by the end, they would be attacked from all sides.
 
-## Day 3: Character Design & Art
-
-The third day was spent entirely on design and art, since I was tired at looking at blobs and rectangles.
+## Character Design & Art
 
 By this point, I'd had a general idea of the plot and characters, and that I'd only have four of them. Specifically, a classic RPG party of sorts: a slow powerhouse, a ranged attacker, a fast and frail unit, and a healer. 
 
 I decided that stats and mechanics of combat would follow RPGs loosely and simply as possible. All characters only had ranged attacks, mainly because that required fewer animations and were easier to program. As a result, I decided on the following stats:
+
 * Power: the amount of damage the character does per attack (or heals, in the healer's case)
 * Armor: Damage reduction. The damage formula was a strict `max(attacker.power - defender.armor, 1)` to keep things simple.
 * Speed: How quickly the character moved.
@@ -95,10 +95,36 @@ Vermillion Bird's sprite, in-game size.
 
 Portraits were drawn in the same way, though with only two colors (both for style, since the characters all had a color in their name...and also because it's faster). The portraits were not scaled down as the in-game character art was, though.
 
-## Day 4: Enemies & Text
+## Day 4: Enemies & AI
 
-## Day 5: AI & Collisions
+There was only one type of enemy, for time's sake. All it would do was to select the Relic as its target, and move towards and attack that target. It would also change its target to any unit that attacked it, and could theoretically chase player units around if they provoked it. This behavior was added to make the game beatable - if the enemies ignored the players, because of the way my collisions worked, there was no real way to stop them from reaching the Relic and overwhelming the player with sheer numbers.
 
-## Day 6: UI & Logic
+This is a rough version of the AI:
 
-## Day 7: Win and Lose States
+    // create
+    target = relic
+
+    // step
+    if (distance_to_object(target) < range) {
+        // attack
+    }
+    else {
+         move_path(speed, target.x, target.y)
+    }
+
+    // collision with enemy attack
+    target = other.owner
+
+The enemies used the same pathfinding and attack algorithm as the players, so didn't end up costing too much time to program. Spawning was determined by a timeline, where after x seconds of ingame time (pausing stopped the timer), a set number of enemies would spawn at one of the spawn points, at two-second intervals.
+
+This is definitely an area where the game could be expanded in the future, as I could envision multiple enemy types making the game more tactically deep. Enemies with different move speeds would need to be dealt with differently, or enemies that could bypass certain obstacles, etc.
+
+Collisions are natively available in Game Maker, so that's nice as well. Since the attacks would usually be destroyed upon collision with an enemy, and the pathfinding handled walls, I didn't really need to implement any kind of physics.
+
+## Win and Lose States
+
+Work in progress!
+
+## Polish
+
+Work in progress!
