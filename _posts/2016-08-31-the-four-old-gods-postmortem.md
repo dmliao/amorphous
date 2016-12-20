@@ -5,7 +5,7 @@ title: Making The Four Old Gods
 
 _Note: This post was started in August after I finished the game, although I forgot about it and so remains unfinished as of December 20th, 2016. I will get back to it as soon as I am able, but I think there's already some valuable information here, which is why I'm publishing it now._
 
-I participated in Enbyjam in August, 2016, pretty much entirely on a whim: I wanted to make a game, and there happened to be a jam running, so I used the jam's running time as a deadline. It gave me a week (and change - technically 9 days) to make a game. And decided to make a strategy game. [You can play it here.]
+I participated in Enbyjam in August, 2016, pretty much entirely on a whim: I wanted to make a game, and there happened to be a jam running, so I used the jam's running time as a deadline. It gave me a week (and change - technically 9 days) to make a game. And decided to make a strategy game. [You can play it here.](https://amorphous.itch.io/the-four-old-gods)
 
 I will be the first to say that a strategy game is _probably_ not the best choice for a game jam. There are a lot of pieces, and it requires a lot of code, art, and playtesting. I went into it fully expecting to fail, like the last three times I tried to make a strategy game for a game jam.
 
