@@ -4,7 +4,7 @@ layout: default
 
 I'm a student at Princeton University majoring in Computer Science, and minoring in Creative Writing. 
 
-This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **December 20th, 2016**.
+This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **January 7th, 2017**.
 
 # What I did (recently):
 
@@ -16,6 +16,8 @@ This page is a catch-all of what I've been up to lately, as well as a few things
 
 * being a college student (it's taking up a lot of my time!)
 * writing a fantasy novel for my senior thesis
+* creating a Twinefic or two for class projects
+* learning Unity 3D (...also for a class project)
 * developing a dungeon-crawling RPG video game named **Farsider**
 
 # What I will be doing: <span class='small'>if things go according to plan</span>
