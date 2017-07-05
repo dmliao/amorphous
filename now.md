@@ -2,22 +2,18 @@
 layout: default
 ---
 
-I'm a student at Princeton University majoring in Computer Science, and minoring in Creative Writing. 
+I'm a student at Princeton University majoring in Computer Science, and minoring in Creative Writing.
 
-This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **January 7th, 2017**.
+This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **July 5th, 2017**.
 
 # What I did (recently):
 
-* Spoke on a panel at GaymerX 4 about Game Jams
-* Made a strategy game in August 2016 called [The Four Old Gods](https://amorphous.itch.io/the-four-old-gods), which can be downloaded for free for Windows.
-* Gave a talk at !!con: [Mixing Paint! With Computers!](http://confreaks.tv/videos/bangbangcon2016-mixing-paint-with-computers)
+* Graduated from college!
+* Released a short interactive fiction piece called [champion of molten flesh](https://amorphous.itch.io/champion)
 
 # What I'm doing:
 
-* being a college student (it's taking up a lot of my time!)
-* writing a fantasy novel for my senior thesis
-* creating a Twinefic or two for class projects
-* learning Unity 3D (...also for a class project)
+* traveling around a lot, mainly for family reasons
 * developing a dungeon-crawling RPG video game named **Farsider**
 
 # What I will be doing: <span class='small'>if things go according to plan</span>
