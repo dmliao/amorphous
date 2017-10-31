@@ -2,13 +2,13 @@
 layout: default
 ---
 
-I'm a student at Princeton University majoring in Computer Science, and minoring in Creative Writing.
+I'm a software engineer and game developer, currently taking a break before starting a new job in November.
 
-This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **July 5th, 2017**.
+This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **October 30th, 2017**.
 
 # What I did (recently):
 
-* Graduated from college!
+* Participated in [Inktober 2017](https://twitter.com/dmliao/status/920480659797413888)
 * Released a short interactive fiction piece called [champion of molten flesh](https://amorphous.itch.io/champion)
 
 # What I'm doing:
