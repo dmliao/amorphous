@@ -22,4 +22,6 @@ This page is a catch-all of what I've been up to lately, as well as a few things
 
 ---
 
-The idea of the `/now` page is from [Derek Sivers](https://sivers.org/nowff)
+If you're looking for my work, [here are some games I've made](http://amorphous.itch.io). If you want to know more about what I'm learning, [click here to read my mailing list](https://tinyletter.com/amorphous). Eventually, it may become a blog.
+
+The idea of the `/now` page is from [Derek Sivers](https://sivers.org/nowff). 
