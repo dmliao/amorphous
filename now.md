@@ -2,9 +2,9 @@
 layout: default
 ---
 
-I'm a software engineer and game developer, currently taking a break before starting a new job in November.
+I'm a software engineer and game developer, currently working as a software engineer at Facebook in Seattle.
 
-This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **October 30th, 2017**.
+This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **November 21st, 2017**.
 
 # What I did (recently):
 
@@ -13,12 +13,9 @@ This page is a catch-all of what I've been up to lately, as well as a few things
 
 # What I'm doing:
 
-* traveling around a lot, mainly for family reasons
+* working at Facebook
 * developing a dungeon-crawling RPG video game named **Farsider**
-
-# What I will be doing: <span class='small'>if things go according to plan</span>
-
-* Working at Facebook in Seattle starting November 2017.
+* editing a novel-length science fantasy story named **Crimson**
 
 ---
 
