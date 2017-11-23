@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I'm a software engineer and game developer, currently working as a software engineer at Facebook in Seattle.
+I'm a software engineer and game developer, currently working at Facebook in Seattle.
 
 This page is a catch-all of what I've been up to lately, as well as a few things from the near past and the near future. It was last updated **November 21st, 2017**.
 
