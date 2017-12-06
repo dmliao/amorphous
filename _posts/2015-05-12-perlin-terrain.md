@@ -3,7 +3,7 @@ layout: post
 title: Perlin Terrain
 ---
 
-_Originally, this post was a series of links compiled in May 2015. However, as some of the links are no longer available, it was expanded into a full blog post in July 2016. I've kept the original date, since that was when I actually did all this work._
+_Originally, this post was a series of links on perlin noise terrain generation compiled in May 2015. However, as some of the links are no longer available, it was expanded into a full blog post in July 2016. I've kept the original date, since that was when I actually did all this work._
 
 I found some success using Perlin noise to create realistic-looking terrain for natural worlds in JS. It does not do any physics or any other realistic simulation, nor does it account for natural effects, but I think it looks fairly decent.
 

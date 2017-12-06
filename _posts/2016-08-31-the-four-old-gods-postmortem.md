@@ -3,7 +3,7 @@ layout: post
 title: Making The Four Old Gods
 ---
 
-_Note: This post was started in August after I finished the game, although I forgot about it and so remains unfinished as of December 20th, 2016. I will get back to it as soon as I am able, but I think there's already some valuable information here, which is why I'm publishing it now._
+_Note: This post contains light spoilers Fire Emblem: Fates, and gameplay spoilers for The Four Old Gods._
 
 I participated in Enbyjam in August, 2016, pretty much entirely on a whim: I wanted to make a game, and there happened to be a jam running, so I used the jam's running time as a deadline. It gave me a week (and change - technically 9 days) to make a game. And decided to make a strategy game. [You can play it here.](https://amorphous.itch.io/the-four-old-gods)
 
@@ -95,7 +95,7 @@ Vermillion Bird's sprite, in-game size.
 
 Portraits were drawn in the same way, though with only two colors (both for style, since the characters all had a color in their name...and also because it's faster). The portraits were not scaled down as the in-game character art was, though.
 
-## Day 4: Enemies & AI
+## Enemies & AI
 
 There was only one type of enemy, for time's sake. All it would do was to select the Relic as its target, and move towards and attack that target. It would also change its target to any unit that attacked it, and could theoretically chase player units around if they provoked it. This behavior was added to make the game beatable - if the enemies ignored the players, because of the way my collisions worked, there was no real way to stop them from reaching the Relic and overwhelming the player with sheer numbers.
 
@@ -121,10 +121,6 @@ This is definitely an area where the game could be expanded in the future, as I 
 
 Collisions are natively available in Game Maker, so that's nice as well. Since the attacks would usually be destroyed upon collision with an enemy, and the pathfinding handled walls, I didn't really need to implement any kind of physics.
 
-## Win and Lose States
+## End Notes
 
-Work in progress!
-
-## Polish
-
-Work in progress!
+There's a lot I didn't get into, specifically audio (which was made within a single day) and things like screen transitions and text. At some point, I hope to expand this game -- or at least explore the mechanics behind this game some more, and create a full-length project out of it.

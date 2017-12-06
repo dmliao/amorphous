@@ -2,10 +2,23 @@
     text-align:center;
     margin: 0 auto;
     margin-top: 10px;
+
+    font-family: $alt-font-stack;
+    font-weight: 100;
+    @include set-font-size(40px);
+
     img {
         max-width: 120px;
         width: 100%;
         margin: 0 auto;
+    }
+
+    a {
+        color: $color-dark;
+
+        &:hover {
+            color: $color-logo;
+        }
     }
 }
 

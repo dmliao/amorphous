@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reading, Writing, and Fonts
+wip: true
 ---
 
 _This post was originally written on July 13, 2013 on Wordpress.com._

@@ -9,14 +9,18 @@ body {
 	line-height: 1.5em;
 }
 
-.logo {
+
+
+.alt {
 	font-family: $alt-font-stack;
-	font-weight: 100;
-	@include set-font-size(48px);
+}
+
+code {
+	@include set-font-size(18px);
 }
 
 p {
-	@include set-font-size(24px);
+	@include set-font-size(22px);
 	@include rhythm-spacing(0.5);
 	font-weight: $body-font-weight;
 	color: $body-font-color;
@@ -41,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
 	@include set-font-size(28px);
-	@include rhythm-spacing(1, 1);
+	@include rhythm-spacing(1, 0.5);
 	font-weight: 700;
 }
 h2 {
@@ -86,14 +90,14 @@ blockquote {
 
 ul {
 	li {
-		@include set-font-size(24px);
+		@include set-font-size(22px);
 		
 	}
 }
 
 ol {
 	li {
-		@include set-font-size(24px);
+		@include set-font-size(22px);
 		
 	}
 }

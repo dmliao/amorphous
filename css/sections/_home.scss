@@ -8,6 +8,10 @@
     margin: 0 auto;
 }
 
+.small-paragraph {
+    @include set-font-size(16px);
+}
+
 .header {
     @include rhythm-spacing(2,1);
 

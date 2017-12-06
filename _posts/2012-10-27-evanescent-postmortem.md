@@ -3,15 +3,13 @@ layout: post
 title: Evanescent Post-Mortem
 ---
 
-_This post was originally written October 2012._
-
 I started making video games when I was twelve, starting off with Game Maker 6 and drag and drop, before graduating to GML, and then later onto Flash Actionscript 3. Immediately after moving to Flash, I took the nonsensical option and decided to make a big Flash game right away, which ended up taking up a whole year due to my roller-coaster development path and trial-and-error coding. The big project of mine grew from my fooling around with Flash into a serious endeavor, and eventually became my first truly polished and completed game.
 
-That game is Evanescent, [which you can play on Kongregate](http://www.kongregate.com/games/BeastAmorphous/evanescent). It's also been [open sourced on Github](https://github.com/dmliao/evanescent), though the source code is an absolute terror.
+That game is Evanescent, which is [open sourced on Github](https://github.com/dmliao/evanescent), though the source code is an absolute terror.
 
 ![](/img/blog/evanescent-postmortem/Evanescent.jpg)
 
-All in all, since I did complete the game, I consider it a success. I had released it expecting nothing more than a few gameplays from a few friends, and the satisfaction of having released a game. While it has not seen immense success on the game portals I put it on, I’m overall happy with how things have gone down.
+All in all, since I did complete the game, I consider it a success. I had released it expecting nothing more than a few game plays from a few friends, and the satisfaction of having released a game. While it has not seen immense success on the game portals I put it on, I’m overall happy with how things have gone down.
 
 Still, there’s always room for reflection and improvement, and looking back now, Evanescent was a game that had been developed crookedly, with me trying to learn Flash as I went along. Here is some of my insight on having made this game:
 

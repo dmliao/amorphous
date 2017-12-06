@@ -3,8 +3,6 @@ layout: post
 title: Notes from IndieCADE East, 2013
 ---
 
-_This post was originally written February 2013._
-
 This weekend I attended my first indie-game convention, and in fact the very first IndieCADE East, here in NYC. I was there all three days, Friday, Saturday, and Sunday, and took quite a bit from the event. But coming into it, I had no idea what to expect, and was worried that I’d be entirely overwhelmed by games and gamers and game developers, etc.
 
 The fact that there was also a game show-and-tell, which anyone could sign up for, which I planned to sign up for (to demo MechaFrog), didn’t at all help my nerves. What if things broke? What if my game was terrible compared to everything else? What if…you get the picture.

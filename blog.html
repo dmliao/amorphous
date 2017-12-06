@@ -7,11 +7,12 @@ title: Diana Liao
 
 <div id="home">
 <h1>Blog</h1>
-    <p>Hi there. This isn't exactly a traditional blog with thought-out articles or tutorials, but rather more like a journal of interesting things and notes I took along the way. Anytime I do something that was surprisingly difficult, or complete a project, or go to an interesting event, I might have notes that make their way here. These posts have only been roughly edited and may not always be entirely cohesive, but I hope that they are useful or informative in their own way.</p>
+    <p>Hi there. I've been maintaining this blog for four years, but never actually made it public until now. I post sporadically; I write more often via mailing list, and sometimes I polish up the thoughts I make there to post here. Older posts have only been roughly edited and may not always be entirely cohesive, but I hope that they are useful or informative in their own way.</p>
     <hr>
   {% for post in site.posts %}
     {% if post.wip != true %}
       <h2 class='alt'><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: "%B %-d, %Y" }}</small></h2>
+      <p class='hidden-sm hidden-xs'>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} &nbsp;<span class='alt'><a href="{{ post.url }}">&gt;&gt;&gt;</a></span></p>
     {% endif %}
   {% endfor %}
  

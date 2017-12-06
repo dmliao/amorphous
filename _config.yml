@@ -48,14 +48,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-  
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
 
   syntax_highlighter_opts:
     # Rouge Options › https://github.com/jneen/rouge#full-options
@@ -64,7 +56,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: true
+      line_numbers: false
       start_line: 1
 sass:
     style:  expanded  # nested|expanded|compact|compressed

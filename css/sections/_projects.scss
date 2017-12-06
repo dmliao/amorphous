@@ -1,0 +1,15 @@
+.projects {
+	h1 {
+		@include alt-caps();
+		@include set-font-size(20px);
+		@include rhythm-spacing(0.5, 0);
+		color: $color-logo;
+		&:hover{
+			color: darken($color-logo,10);
+		}
+	}
+	p {
+		@include set-font-size(18px);
+		@include rhythm-spacing(0, 0.5);
+	}
+}

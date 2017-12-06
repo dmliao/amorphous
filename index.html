@@ -1,33 +1,68 @@
 ---
 layout: home
 ---
-<img src='/img/AmorphousHeader.jpg'>
+
+<img src='img/AmorphousHeader.jpg'/>
+
 <div class='container-thin'>
 <div class='text-center'>
-    <h1 class='home-emphasis'>Hi, I'm Diana.</h2>
-    <p>(I go by Amorphous online.)<p>
-    <p>I'm a software engineer, game developer, artist, writer, and composer.</p>
-    <h2 class='home-emphasis'>I make things:</h3>
-    <p>Games, applications, websites, or anything else that is pretty and moves on a computer. I like building things and seeing them tick, and I like telling stories through words and pictures.</p>
-    <p><a href='/now'>Here's what I'm working on at the moment.</a></p>
+    <h1>Hi, I'm Diana.</h1>
+    <p class='small-paragraph'>(I go by Amorphous online.)</p>
+    <p>I'm a Seattle-based game developer, artist, and writer.</p>
+    <p>Here are some things I've made:</p>
+    <div class='projects row'>
+    	<div class='col-md-12'>
+    		<a href="https://amorphous.itch.io/starlight">
+		    <h1 class='alt project-title'>Starlight</h1>
+		    <div class='img-preview imgLiquid'>
+				<img src='/img/screenshots/starlight.png'>
+			</div>
+		    <p>web exploration game. light up the night sky.</p></a>
+		</div>
+
+		<div class='col-md-6'>
+			<a href="/the-four-old-gods">
+		    <h1 class='project-title'>The Four Old Gods</h1>
+		    <div class='img-preview imgLiquid'>
+				<img src='/img/screenshots/4og.png'>
+			</div>
+		    <p>a strategy game for windows. protect each other.</p></a>
+		</div>
+		<div class='col-md-6'>
+			<a href="https://amorphous.itch.io/champion">
+		    <h1 class='project-title'>Champion of Molten Flesh</h1>
+		    <div class='img-preview imgLiquid'>
+				<img src='/img/screenshots/champion.png'>
+			</div>
+		    <p>a twine web game. become a true hero.</p></a>
+		</div>
+		<div class='projects'>
+		<div class='col-md-6'>
+			<a href="https://amorphous.itch.io/excerpts">
+			<h1>Excerpts From a Journal</h1>
+			<p>a surreal exploration game in an old manor</p>
+			</a>
+		</div>
+		<div class='col-md-6'>
+			<a href="https://amorphous.itch.io/retrograde">
+			<h1>Retrograde</h1>
+			<p>a techno-orchestral soundtrack</p>
+			</a>
+		</div>
+	</div>
+	</div>
+	<h1>More stuff:</h1>
+	{% include nav.html %}
 
 </div>
-
-<br>
-
 <div class='text-center'>
-<img src='/img/divider-sword.png'>
-</div>
-{% include nav.html %}
-<div class='text-center'>
-<img src='/img/divider-sword.png'>
-</div>
 
-<br>
+<h1>also:</h1>
+<p><a href='/now'>Here's what I'm working on at the moment.</a></p>
+<p>You can reach me by <a href='mailto:dl.amorphous@gmail.com'>email</a> or on <a href='http://twitter.com/dmliao'>twitter</a>.</p>
 
-<div class='text-center'>
-<h2 class='home-emphasis'>You can reach me by <a href='mailto:dl.amorphous@gmail.com'>email</a> or on <a href='http://twitter.com/dmliao'>twitter</a>.</h3>
-
-<p><a href="https://tinyletter.com/amorphous">I also have a mailing list</a>, which I use to talk about my current projects in some depth and dive into curious topics. It updates at most once every two weeks.</p>
+<p>I have a mailing list, which I use to send project updates and analyze interesting topics. <a href="https://tinyletter.com/amorphous">You can read it here</a>, and subscribe here:</p>
 </div>
+ <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/amorphous" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/amorphous', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:400px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input class='alt' type="submit" value="Subscribe" /><p class='small'><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+
 </div>

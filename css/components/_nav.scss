@@ -1,12 +1,12 @@
 nav {
     text-align: center;
     @include set-font-size(32px);
-    @include rhythm-spacing(1, 1);
+    @include rhythm-spacing(0.5, 0.5);
 
     li {
         display: inline-block;
         margin: 0 12px;
-        @include set-font-size(24px);
+        @include set-font-size(20px);
         font-family: $alt-font-stack;
 
         a {

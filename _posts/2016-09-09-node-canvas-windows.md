@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing Node Canvas on Windows 8
+title: Node Canvas on Windows 8
 ---
 
 I develop on Windows. I do this for a variety of reasons, primarily because my personal laptop uses Windows, because I run a variety of software that only runs on Windows, etc. etc. etc.
