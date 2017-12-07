@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Site Update
+description: Hi there! After a long time, I've updated my website. There are two major changes: 1. major projects are now listed on the front page, and 2. I've made my blog public.
 ---
 
-Hi there. After a long time, I've updated my website. There are two major changes: 1. major projects are now listed on the front page, and 2. I've made my blog public.
+Hi there! After a long time, I've updated my website. There are two major changes: 1. major projects are now listed on the front page, and 2. I've made my blog public.
 
 Projects should be self-explanatory. [You can now reach my games directly from the home page now!](/) And as I work on more non-game projects, they might pop up here too.
 

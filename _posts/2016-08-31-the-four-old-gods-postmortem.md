@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Making The Four Old Gods
+description: An analysis of The Four Old Gods, a strategy game I made in a week.
 ---
 
 _Note: This post contains light spoilers Fire Emblem: Fates, and gameplay spoilers for The Four Old Gods._
