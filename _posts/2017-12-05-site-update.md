@@ -5,7 +5,7 @@ title: Site Update
 
 Hi there. After a long time, I've updated my website. There are two major changes: 1. major projects are now listed on the front page, and 2. I've made my blog public.
 
-Projects should be self-explanatory. You can now reach my games directly from the home page now! And as I work on more non-game projects, they might pop up here too.
+Projects should be self-explanatory. [You can now reach my games directly from the home page now!](/) And as I work on more non-game projects, they might pop up here too.
 
 The blog is something I've been maintaining on and off for four years, where I wrote articles on whatever I felt like at the time. It's always been in a state of quasi-public: technically public in the sense that you could visit it, but never actually linked to or publicized in such a way that people could read it. It has also moved from host to host, first from Wordpress to Google blogs, and finally to Jekyll here.
 
