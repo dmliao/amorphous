@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Site Update
+description: "Hi there! After a long time, I've updated my website. There are two major changes: 1. major projects are now listed on the front page, and 2. I've made my blog public."
 ---
 
 Hi there! After a long time, I've updated my website. There are two major changes: 1. major projects are now listed on the front page, and 2. I've made my blog public.
